@@ -71,12 +71,6 @@ function App() {
       })
   }, [locationName])
 
-  // useEffect(()=>{
-  //   fetch(fetch(`https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${locationName}?unitGroup=metric&key=2H7FVANY3ZR6A8TGWNG688B6P&contentType=json`)
-  //   )
-  //   .then(res => res.json())
-  //   .then(data => setSunRis ([data]))
-  // }, [])
 
 
 
