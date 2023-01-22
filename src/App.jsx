@@ -7,9 +7,7 @@ function App() {
   const [location, setLocation] = useState("Bhiwandi")
   const [locationName, setLocationName] = useState("Bhiwandi")
   const [bgGif, setBGGif] = useState("")
-  // const [sunRise, setSunRise] = useState([])
 
-  // console.log(sunRise)
 
   useEffect(() => {
     fetch(`https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${locationName}?unitGroup=metric&key=2H7FVANY3ZR6A8TGWNG688B6P&contentType=json`)
